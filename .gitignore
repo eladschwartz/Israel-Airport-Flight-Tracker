@@ -1,0 +1,57 @@
+# Python bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribution / packaging
+dist/
+build/
+*.egg-info/
+
+# Virtual environment
+venv/
+env/
+ENV/
+.env/
+.venv/
+
+# IDE specific files
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+
+# Project logs
+*.log
+logs/
+flights_automation.log
+
+# Browser driver binaries that get downloaded
+drivers/
+.wdm/
+
+# Exported data files
+*.csv
+*.xlsx
+flights.csv
+
+# OS specific files
+.DS_Store
+Thumbs.db
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Local configuration
+config.ini
+local_settings.py
+
+# Selenium specific
+geckodriver.log
+chromedriver.log
+
+# Temporary files
+temp/
+tmp/
+.temp/
+.tmp/
