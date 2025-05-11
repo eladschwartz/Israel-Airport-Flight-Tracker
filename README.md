@@ -61,12 +61,7 @@ python -m flights.run
 ### 🔄 Interactive Workflow
 
 1. Choose between arrival or departure flights
-2. Select "All" to get all available flights or "Filter" to apply filters
-3. If filtering, provide optional details such as:
-   - City
-   - Country
-   - Airline
-   - Date range
+2. Select "All" to get all available flights or "Filter" to apply filters(Filter still in the works)
 
 ### 🔍 What the Application Does
 
