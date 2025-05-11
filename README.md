@@ -45,26 +45,6 @@ Access the flight information page
 Extract flight data based on your criteria
 Export the data to a flights.csv file in the current directory
 
-Project Structure
-israel-flight-tracker/
-├── flights/
-│   ├── constants.py            # Configuration and constants
-│   ├── models/                 # Data models
-│   │   ├── arrival.py          # Arrival flight model
-│   │   ├── departure.py        # Departure flight model
-│   │   ├── flight.py           # Base flight model and status enum
-│   │   └── search_parameters.py # Search criteria validation
-│   ├── services/               # Core functionality
-│   │   ├── data_exporter.py    # CSV export service
-│   │   ├── flight_navigator.py # Website navigation
-│   │   ├── flight_parser.py    # HTML parsing for flight data
-│   │   └── flight_schedule.py  # Main orchestration service
-│   ├── utils/                  # Helper utilities
-│   │   ├── browser_factory.py  # WebDriver setup
-│   │   └── input_collector.py  # User input handling
-│   └── run.py                  # Application entry point
-├── requirements.txt            # Project dependencies
-└── README.md                   # This file
 Customization
 Browser Options
 By default, the application uses Chrome in visible mode. You can modify browser_factory.py to:
